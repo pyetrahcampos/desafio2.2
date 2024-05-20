@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1</title>
+    <link rel="stylesheet" type="text/css" href="DESAFIO1.2.css">
+    <script type="module" src="DESAFIO1.3.js"></script>
+
+</head>
+<body>
+    <div>
+        <h1>Cadastro</h1>
+        <p>Complete com suas informações</p>
+    </div>
+    <form id="form">
+        <fieldset>
+            <label for="nome">Nome do proprietário</label>
+            <input type="text" name="nome" id="nome" class="modal-field">
+        </fieldset>
+
+        <fieldset>
+            <label for="placaVeiculo">Placa do veículo</label>
+            <input type="text" name="placaVeiculo" id="placaVeiculo" class="modal-field">
+        </fieldset>
+
+        <fieldset>
+            <label for="numeroApartamento">Número do apartamento</label>
+            <input type="number" name="numeroApartamento" id="numeroApartamento" class="modal-field">
+        </fieldset>
+
+        <fieldset>
+            <label for="blocoApartamento">Bloco do apartamento</label>
+            <input type="text" name="blocoApartamento" id="blocoApartamento" class="modal-field">
+        </fieldset>
+
+        <fieldset>
+            <label for="modeloVeiculo">Modelo do veículo</label>
+            <input type="text" name="modeloVeiculo" id="modeloVeiculo" class="modal-field">
+        </fieldset>
+
+        <fieldset>
+            <label for="corVeiculo">Cor do veículo</label>
+            <input type="text" name="corVeiculo" id="corVeiculo" class="modal-field">
+        </fieldset>
+
+        <fieldset>
+            <label for="numeroVaga">Número da vaga de estacionamento</label>
+            <input type="text" name="numeroVaga" id="numeroVaga" class="modal-field">
+        </fieldset>
+
+        <button type="button" id="salvar">Salvar</button>
+        <button type="button" id="cancelar">Cancelar</button>
+    </form>
+
+    
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" id="modal-close">&times;</span>
+                <h2>Novo Morador</h2>
+            </div>
+            <div class="modal-body">
+                <!-- O mesmo formulário pode ser colocado aqui -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="modal-salvar">Salvar</button>
+                <button type="button" id="modal-cancelar">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
